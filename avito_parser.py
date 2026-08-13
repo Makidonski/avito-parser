@@ -272,6 +272,5 @@ def main() -> int:
     log.info("Готово: %s строк записано в %s", len(rows), args.out)
     return 0
 
-
 if __name__ == "__main__":
     sys.exit(main())
